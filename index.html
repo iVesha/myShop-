@@ -1,0 +1,43 @@
+<head>
+    <link rel="stylesheet" href="_styles_/body.css">
+    <link rel="stylesheet" href="_styles_/nav.css">
+    <link rel="stylesheet" href="_styles_/dropdown.css">
+    <link rel="stylesheet" href="_styles_/main.css">
+    <link rel="stylesheet" href="_styles_/footer.css">
+</head>
+
+<body>
+    <header>
+        <h2>My Website</h2>
+        <p>Some other text...</p>
+    </header>
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <dropdown>
+            <p onclick="dropdown()">PRODUCTS</p>
+            <div id="myDropdown" dropdown-content>
+                <a href="#shirts">-- shirts --</a>
+                <a href="#pants">-- pants --</a>
+                <a href="#shoes">-- shoes --</a>
+            </div>
+        </dropdown>
+    </nav>
+    <main>
+        <img src="shirts/shirt-1_frontView.png" alt="shirt">
+        <img src="pants/pants-1_frontView.png" alt="pants">
+        <img src="shoes/shoes-1_frontView.png" alt="shoes">
+        <p>Shirts with custom prints are now available !</p>
+        <p>Free shipping for pants that cost less than 20€</p>
+        <p>Shoes are on sale for -45%</p>
+    </main>
+    <footer>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur dolor minus fugiat minima eveniet
+        officia<br>
+        quae, deserunt tempore, odio eos dicta modi molestiae voluptas hic aut. In assumenda rerum aliquam!<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officiis tenetur iusto, ullam omnis, ab rem<br>
+        deserunt libero fugit magni delectus perspiciatis incidunt, veritatis vero nam laboriosam! Commodi, tempora<br>
+        natus.
+    </footer>
+    <script src="_scripts_/script.js" defer></script>
+</body>

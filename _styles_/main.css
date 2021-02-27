@@ -1,0 +1,11 @@
+img{
+    height: 30%;
+    width: auto;
+    margin-left: 3%;
+    border: 1px black solid;
+    padding: 5%;
+}
+
+main p {
+    margin-bottom: 15px;
+}
